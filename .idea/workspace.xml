@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6db0c90-e3b8-44eb-ab92-2ae8924726f2" name="Changes" comment="An example for Filter function">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MapFunction.kt" afterDir="false" />
+    <list default="true" id="b6db0c90-e3b8-44eb-ab92-2ae8924726f2" name="Changes" comment="An example for forEach">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Predicates.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +49,22 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.MapFunctionKt">
+  <component name="RunManager" selected="Kotlin.PredicatesKt">
     <configuration name="FilterFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FilterFunctionKt" />
+      <module name="Lambdas.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForEachKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ForEachKt" />
       <module name="Lambdas.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,13 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="Lambdas.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MapFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MapFunctionKt" />
       <module name="Lambdas.main" />
@@ -80,12 +84,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PredicatesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PredicatesKt" />
+      <module name="Lambdas.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PredicatesKt" />
+        <item itemvalue="Kotlin.ForEachKt" />
         <item itemvalue="Kotlin.MapFunctionKt" />
         <item itemvalue="Kotlin.FilterFunctionKt" />
         <item itemvalue="Kotlin.LambdasKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674205503017</updated>
-      <workItem from="1674205504606" duration="4507000" />
+      <workItem from="1674205504606" duration="6032000" />
     </task>
     <task id="LOCAL-00001" summary="An example for Filter function">
       <created>1674493574746</created>
@@ -106,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674493574746</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="An example for Map function">
+      <created>1674549668904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674549668904</updated>
+    </task>
+    <task id="LOCAL-00003" summary="An example for forEach">
+      <created>1674550290754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674550290754</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +140,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="An example for Filter function" />
-    <option name="LAST_COMMIT_MESSAGE" value="An example for Filter function" />
+    <MESSAGE value="An example for Map function" />
+    <MESSAGE value="An example for forEach" />
+    <option name="LAST_COMMIT_MESSAGE" value="An example for forEach" />
   </component>
 </project>
